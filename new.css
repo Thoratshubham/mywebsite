@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#nav{
+  overflow:hidden;
+}
+.nav-inner{
+  margin:0 auto;
+  width:70%;
+  list-style:none;
+  overflow:hidden;
+}
+.nav-item{
+  float:left;
+  padding:1% 5%;
+  color:burlywood;
+  font-size:larger;
+}
+
+.dropdown{
+  position:absolute;
+  top:7%;
+  left:29%;
+  width:10%;
+  display: none;
+}
+
+.dropdown-inner{
+  list-style:none;
+  background-color:#ddd;
+  width:100%;
+  padding:1%;
+}
+
+.dropdown-item{
+  color:darkmagenta;
+  text-align:center;
+  padding:2%;
+  background-color:white;
+  margin:2% 3%;
+}
+
+a{
+  text-decoration:none;
+}
+
+
+img[alt="Website"]{
+  position:fixed;
+  top:0%;
+  left:0;
+  z-index:-1;
+}
+/*#welcome{
+  text-align:center;
+}*/
+
+/*.mydiv button[type="button"]
+{
+  float:right;
+  background-color: #4CAF5000;
+  border: 1px;
+  padding: 10px;
+  margin:5px;
+  box-shadow: 5px 7.5px;
+  font-size: 16px;
+  text-align: right;
+}
+.mydiv{
+position: Absolute;
+top:2%;
+right:1%;
+}*/
+/*.mydiv:hover
+{
+        box-shadow:
+                1px 1px  ;
+                2px 2px ;
+                3px 3px ;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}*/
+/*button[name="button1"]:hover
+{
+box-shadow:
+                1px 1px #FFD700;
+                2px 2px #FFD700;
+                3px 3px #FFD700;
+
+}
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+button[name="button2"]:hover
+{
+box-shadow:
+                1px 1px #FFD700;
+                2px 2px #FFD700;
+                3px 3px #FFD700;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}button[name="button3"]:hover
+{
+box-shadow:
+                1px 1px #FFD700;
+                2px 2px #FFD700;
+                3px 3px #FFD700;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}button[name="button4"]:hover
+{
+box-shadow:
+                1px 1px #FFD700;
+                2px 2px #FFD700;
+                3px 3px #FFD700;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}button[name="button5"]:hover
+{
+box-shadow:
+                1px 1px #FFD700;
+                2px 2px #FFD700;
+                3px 3px #FFD700;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+.menu-body{
+background-color:#ddd;
+display:none;
+position:relative;
+top:30px;
+width:30%;
+height:200px;
+}
+.menu-body ul li{
+list-style: none;
+text-decoration: none;
+text-align:center;
+display:block;
+width:100%;
+height:10px;
+background-color:grey;
+margin:2%;
+}
+.menu-body ul{
+padding:0;
+margin:0;
+}
+.mydiv{
+bg-color:rgba(0,0,0,0.8);
+width:100%;
+height:60px
+
+}*/

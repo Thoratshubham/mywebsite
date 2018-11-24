@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to my Website </title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded",function(){
+      let dropdownbutton=document.querySelector("#toggle")
+      let dropdown=document.querySelector(".dropdown")
+
+      dropdownbutton.onmouseover=function () {
+        if(dropdown.style.display==="none"){
+          dropdown.style.display="block";
+        }
+        else{
+          dropdown.style.display="none";
+        }
+      }
+    });
+    </script>
+  </head>
+  <body>
+    <nav id="nav">
+      <ul class="nav-inner">
+        <a href="#"><li class="nav-item"><i class="fas fa-home ">HOME</i></li></a>
+        <a href="#"><li class="nav-item" id="toggle"><i class="fas fa-bars">BRANDS</i></li></a>
+        <div class="dropdown">
+          <ul class="dropdown-inner">
+            <a href="hello.html"><li class="dropdown-item">APPLE</li></a>
+            <a href="https://goo.gl/VUzirB"><li class="dropdown-item">ONE PLUS</li></a>
+            <a href="https://goo.gl/H6mdgj"><li class="dropdown-item">SAMSUNG</li></a>
+            <a href="https://goo.gl/bNDgdn"><li class="dropdown-item">MI</li></a>
+            <a href="https://goo.gl/bNDgdn"><li class="dropdown-item">OPPO</li></a>
+            <a href="https://goo.gl/bNDgdn"><li class="dropdown-item">VIVO</li></a>
+            <a href="https://goo.gl/bNDgdn"><li class="dropdown-item">MOTO</li></a>
+            <a href="https://goo.gl/bNDgdn"><li class="dropdown-item">NOKIA</li></a>
+          </ul>
+        </div>
+      <a href="#">  <li class="nav-item"><i class="fas fa-phone">CONTACT</i></li></a>
+        <a href="#">  <li class="nav-item"><i class="fas fa-shopping-cart"></i>CART</i></li></a>
+        <a href="#">  <li class="nav-item"><i class="fas fa-sign-in-alt"></i>Login</li></a>
+      </ul>
+    </nav>
+    <h1 id="welcome"><marquee>       </marquee></h1>
+    <img src= "business.jpeg" alt="Website" height="700px" width="100%"/>
+
+  </body>
+</html>
